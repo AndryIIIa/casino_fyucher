@@ -1,0 +1,46 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.card {
+  background: #16213e;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  min-width: 250px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+input { background: #0f3460; color: #fff; }
+button {
+  background: #e94560;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover { background: #c73650; }
+.hidden { display: none; }
+.msg { min-height: 20px; color: #ffd369; }
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #16213e;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.topbar button { width: auto; padding: 8px 16px; }
+.games { display: flex; flex-wrap: wrap; justify-content: center; }
